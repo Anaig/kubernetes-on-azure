@@ -8,8 +8,9 @@ This project is a basic template to deploy Kubernetes on Azure using Terraform a
     3. Update your path to add the path to the Terraform binary
 - An Azure service principal 
     - ```az ad sp create-for-rbac --role="Contributor" --scopes="/subscriptions/${SUBSCRIPTION_ID}"```
-- Update your environment variables with your subscription ID, client ID, client secret and tenant ID;
-    - ```export ARM_SUBSCRIPTION_ID=xxxxxxxx
+- Update your environment variables with your subscription ID, client ID, client secret and tenant ID
+    - 
+    ```export ARM_SUBSCRIPTION_ID=xxxxxxxx
         export ARM_CLIENT_ID=xxxxxxx
         export ARM_CLIENT_SECRET=xxxxxxx
         export ARM_TENANT_ID=xxxxxxxx```
@@ -18,3 +19,4 @@ This project is a basic template to deploy Kubernetes on Azure using Terraform a
 
 ## References
 - [Terraform.io](https://www.terraform.io/)
+- [Hashicoro learn](https://learn.hashicorp.com/terraform/azure)
