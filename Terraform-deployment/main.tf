@@ -3,7 +3,7 @@ provider "azurerm" {
     version = "~>1.5"
 }
 
-# Loads state file in an Azure backend
+# Stores state file in an Azure Blob Storage
 terraform {
     backend "azurerm" {}
 }

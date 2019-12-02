@@ -1,5 +1,5 @@
 variable "location" {}
 variable "resource_group_name" {
-    type = "String"
+    type = "string"
     description = "Resource group name"
 }
